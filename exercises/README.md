@@ -1,5 +1,4 @@
-Hint:
+Good stuff! You found the first exercise!
 
-`git branch -a`
-
-Look for the exercises on "branches".
+And in so doing, you also completed the first task in the first exercise. Isn't
+this going just swell?
