@@ -32,7 +32,7 @@ Run `git commit -m "My first commit"`.
 
 Now, all this "staging" and "committing" might seem like a lot of jumping
 through hoops. In the beginning, "staging" is mostly something you forget to do,
-and then git becomes all annoying and prissy when you try to do a commit.
+and then git becomes all annoying and prissy when you try to do an empty commit.
 
 But, there is good reason for staging and committing as separate steps, and
 we'll come to that :)
@@ -70,6 +70,7 @@ commit your changes with a nice commit message. Then checkout
 `exercises/branches` again.
 
 Now merge your branch into this branch. If you did it correctly, you should see
-your commit when you run `git log`, as well as a merge commit that informs us
-that your branch was merged into this one. You will also see that this file has
+your commit when you run `git log`. You will also see that this file has
 now been updated with your changes.
+
+Now might be a good time to look at the excercises for commit.
