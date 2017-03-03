@@ -14,12 +14,36 @@ Below is some simple javascript:
 
 ```js
 function createTardis() {
+    var doorOpen = false;
+    var currentCamouflage = 'Police Public Call Box';
+
     return {
+        openDoor: openDoor,
+        closeDoor: closeDoor,
+        getCurrentCamo: getCurrentCamo,
+        setCamo: setCamo,
         travelTo: travelTo
     };
 
+    function openDoor() {
+        doorOpen = true;
+    }
+
+    function closeDoor() {
+        doorOpen = false;
+    }
+
     function travelTo(destination) {
         // TODO(ads): implement this once we figure out the bit about time-travelling.
+
+    }
+
+    function getCurrentCamo() {
+        return currentCamouflage;
+    }
+
+    function setCamo(newCamo) {
+        throw new Error('I won\'t do that, and you know it…');
     }
 }
 ```
