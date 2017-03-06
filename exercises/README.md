@@ -37,7 +37,7 @@ The commit we want has a bugfix for the following code:
 
 ```js
 function square(x) {
-    return x + x;
+    return 2 * x;
 }
 ```
 
