@@ -73,4 +73,20 @@ Now merge your branch into this branch. If you did it correctly, you should see
 your commit when you run `git log`. You will also see that this file has
 now been updated with your changes.
 
+---
+
+A note on merging and rebasing (feel free to come back and read this at a later time if it feels too complicated right now):
+
+When merging two branches, the resulting history will have the commits ordered by the date and time they where originally created. While this might sound very reasonable, in practise it often doesn't create a very nice history. This is because when we use branches to add a feature, the commits in a branch usually belongs together, and even if they are nicely "sectioned" so that each commit contains a single complete change, the commits are often better understood when seen together.
+
+When rebasing one branch "onto" another, the final history will have all the commits from the other branch first, and then all the commits from the branch you are currently on last. In practise, it's like if you had waited to create your branch until after all the new commits had already been added to the other branch.
+
+In the Lime CRM Feature Team, we always use rebase when updating a branch with new commits that has been added to the "source" branch. For example, let's say I create a branch from `master`. I then add a couple of commits to my new branch. While I'm working, a new feature is added to `master`. If I want to update my branch with the new commits from `master`, I rebase *my* branch *onto* master. I do this by first making sure my local master is up to date, then I checkout my branch, and run `git rebase master`.
+
+When adding the changes from a branch into `master`, we use the Merge function in GitLab. It performs a merge, not a rebase, but if we made sure that the branch had already been rebased onto the latest `master`, all our new commits will be added "last" in the history.
+
+Whether you use merge or rebase when updating your branch with changes from `master` (or any other "parent-branch"), is ultimately a matter of personal taste. However, if you share your working branch with anyone, it's important that you all use the same option. If one of you merges new changes from master, and someone else rebases onto master, your git history will be royally effed up. (The actual files on the system will be fine, but you'll have commits appearing multiple times at different places in the history and stuff like that. Just make sure to avoid it.)
+
+---
+
 Now might be a good time to look at the excercises for commit.
