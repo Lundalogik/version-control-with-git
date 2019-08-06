@@ -1,7 +1,7 @@
 # version-control-with-git
 Material for the trainee class "Version control with git"
 
-This course material is intended for internal use at Lundalogik AB. It is provided here, as is, for anyone that might find it useful. Lundalogik AB takes no responsibility for anything you might do with it, yada yada yada, etcetera etcetera.
+This course material is intended for internal use at Lime. It is provided here, as is, for anyone that might find it useful. Lime takes no responsibility for anything you might do with it, yada yada yada, etcetera etcetera.
 
 This material is intended to be used in the classroom, with a teacher helping out. Because of that, there might be places where a student will get stuck if no help is available. I do wish to minimise this problem though, so feel free to submit an issue or email me if you find an area you think is especially problematic.
 
