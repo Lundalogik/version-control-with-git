@@ -83,7 +83,7 @@ When rebasing one branch "onto" another, the final history will have all the com
 
 In the Lime CRM Feature Team, we always use rebase when updating a branch with new commits that has been added to the "source" branch. For example, let's say I create a branch from `master`. I then add a couple of commits to my new branch. While I'm working, a new feature is added to `master`. If I want to update my branch with the new commits from `master`, I rebase *my* branch *onto* master. I do this by first making sure my local master is up to date, then I checkout my branch, and run `git rebase master`.
 
-When adding the changes from a branch into `master`, we use the Merge function in GitLab. It performs a merge, not a rebase, but if we made sure that the branch had already been rebased onto the latest `master`, all our new commits will be added "last" in the history.
+When adding the changes from a branch into `master`, we use GitHub's "Rebase and merge" function. It rebases the branch onto master, and then merges it into master. That way, all the changes from the branch will be added after any existing changes on master.
 
 Whether you use merge or rebase when updating your branch with changes from `master` (or any other "parent-branch"), is ultimately a matter of personal taste. However, if you share your working branch with anyone, it's important that you all use the same option. If one of you merges new changes from master, and someone else rebases onto master, your git history will be royally effed up. (The actual files on the system will be fine, but you'll have commits appearing multiple times at different places in the history and stuff like that. Just make sure to avoid it.)
 
