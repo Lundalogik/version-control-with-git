@@ -3,7 +3,7 @@ Good stuff! You found the first exercise!
 And in so doing, you also completed the first task in the first exercise. Isn't
 this going just swell?
 
-Branches makes it possible to keep different versions of your repository, and
+Branches make it possible to keep different versions of your repository, and
 switch easily between them. All repositories have a branch called `master`.
 Unless your project is fairly complex, and deals with multiple release-tracks,
 `master` is the branch you will probably be building your releases from.
