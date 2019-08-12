@@ -43,7 +43,7 @@ branch `exercises/branches`. See how history is preserved from the old branch?
 
 Now checkout `exercises/branches` again. Notice how this file changed back to
 the way it looked before your changes? You can still find your changes if you
-check out your branch again. Do it if you're paranoid, but come back here
+check out your branch again. Do it if you're feeling paranoid, but come back here
 afterward!
 
 Now we'll do some house cleaning and delete your version of the branch. Deleting
