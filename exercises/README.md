@@ -49,11 +49,11 @@ afterward!
 Now we'll do some house cleaning and delete your version of the branch. Deleting
 a branch is also done through the `git branch` command. If you don't know how,
 run `git branch -h` to get some condensed help for the command. If you run
-`git branch --help` instead, you should get a webpage with a little more
-explanation of each command. This way you can get technically correct
-information about pretty much every command in git. It's a good place to start,
-but if you find it about as easy to digest as a harboiled rock, no one will
-blame you for googling… :)
+`git branch --help` instead, you should get a page with a little more
+explanation of each command, either in the terminal or as a webpage in your
+browser. This way you can get technically correct information about pretty much
+every command in git. It's a good place to start, but if you find it about as
+easy to digest as a harboiled rock, no one will blame you for googling… :)
 
 Ok. So what if instead of throwing all your work away, you want to keep it?
 
