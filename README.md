@@ -7,7 +7,7 @@ This material is intended to be used in the classroom, with a teacher helping ou
 
 Some tools that are good to have for these exercises:
 
-* git for Windows: https://git-for-windows.github.io/
 * A code editor that updates files when changed on disk, for example Sublime Text: https://www.sublimetext.com/
+* git for Windows: https://git-for-windows.github.io/ (if you're on Windows)
 
 Use the `git bash` cli that comes with git for Windows. This material is not intended to be used with a graphical git interface.
