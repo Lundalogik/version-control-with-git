@@ -7,7 +7,12 @@ This material is intended to be used in the classroom, with a teacher helping ou
 
 Some tools that are good to have for these exercises:
 
-* A code editor that updates files when changed on disk, for example Sublime Text: https://www.sublimetext.com/
-* git for Windows: https://git-for-windows.github.io/ (if you're on Windows)
+* A code editor that updates files when changed on disk, for example:
+    * *VSCode* https://code.visualstudio.com/
+    * *Atom* https://atom.io/
+* git:
+    * Windows: *git for Windows*: https://git-for-windows.github.io/
+    * macOS: If you have Xcode installed, you should already have git, otherwise see [this guide](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
+    * Linux: See [this guide](https://www.atlassian.com/git/tutorials/install-git#linux)
 
-Use the `git bash` cli that comes with git for Windows. This material is not intended to be used with a graphical git interface.
+On Windows, use the `git bash` cli that comes with *git for Windows*. On macOS or Linux, use a CLI, the built-in one should be fine. This material is not intended to be used with a graphical git interface.
