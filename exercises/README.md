@@ -13,3 +13,9 @@ As you can see, you need to supply a starting point. This starting point is the 
 Run `git log` and find the commit called "feat(exercises): add exercise on squashing commits". Then copy the hash of the commit just *before* that (i.e. the first *older* commit).
 
 Now run `git rebase -i <hash>`.
+
+You'll get a text file with all the commits listed in order, with the oldest one first. Below them is a comment explaining some of the commands you can use to squash, remove, or edit the different commits.
+
+The commit that adds the section about amending is a large-ish one, and I think it can be reasonable to keep that as its own separate commit. But I suggest squashing all the other commits into the first one.
+
+Now it's time to look at the exercise for "cherry-picking". See you there!
