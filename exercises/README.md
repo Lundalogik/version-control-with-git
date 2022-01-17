@@ -1,5 +1,3 @@
-Hint:
+Ok. So we've split a single commit into a few smaller commits.
 
-`git branch -a`
-
-Look for the exercises on "branches".
+What if we want to combine commits instead?
