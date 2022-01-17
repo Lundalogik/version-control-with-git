@@ -26,7 +26,7 @@ There are quite a few nice things you can do in the git config, like adding colo
 
     git config --global --add color.ui always
     git config --global --add color.diff always
-    git config --global --add alias.praise blame
+    git config --global --add alias.wtf blame
     git config --global --add alias.co checkout
     git config --global --add alias.br branch
     git config --global --add alias.s status
