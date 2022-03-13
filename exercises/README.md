@@ -14,7 +14,11 @@ Below is some simple javascript:
 
 ```js
 function createTardis() {
+    var doorOpen = false;
+
     return {
+        openDoor: openDoor,
+        closeDoor: closeDoor,
         travelTo: travelTo
     };
 
