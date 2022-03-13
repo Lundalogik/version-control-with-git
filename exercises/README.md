@@ -15,10 +15,13 @@ Below is some simple javascript:
 ```js
 function createTardis() {
     var doorOpen = false;
+    var currentCamouflage = 'Police Public Call Box';
 
     return {
         openDoor: openDoor,
         closeDoor: closeDoor,
+        getCurrentCamo: getCurrentCamo,
+        setCamo: setCamo,
         travelTo: travelTo
     };
 
